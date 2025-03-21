@@ -1,6 +1,6 @@
 import { Card, CardMedia, CardContent, Typography, IconButton } from "@mui/material";
 import DeleteIcon from "@mui/icons-material/Delete";
-import { MarsPhoto } from "../../services/imageAPI";
+import { MarsPhoto } from "../services/imageAPI";
 
 interface ImageCardProps {
 	photo: MarsPhoto;
