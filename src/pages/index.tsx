@@ -1,5 +1,6 @@
 import { Container, Typography, Box } from "@mui/material";
 import ImageGrid from "../components/ImageGrid";
+import ScrollTopButton from "@/components/ScrollTopButton";
 
 export default function Home() {
 	return (
@@ -22,6 +23,7 @@ export default function Home() {
 				</Typography>
 			</Box>
 			<ImageGrid />
+			<ScrollTopButton />
 		</Container>
 	);
 }
