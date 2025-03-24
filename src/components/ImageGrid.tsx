@@ -24,8 +24,8 @@ const ImageGrid: React.FC = () => {
 				spacing={2}>
 				{images.map(photo => (
 					<Grid2
-						key={photo.id}
-						>
+						size={{ xs: 12, sm: 6, md: 3 }}
+						key={photo.id}>
 						<ImageCard
 							photo={photo}
 							onDelete={removeImage}
